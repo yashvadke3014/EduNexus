@@ -1,0 +1,22 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+frontend/build/
+**/build/
+coverage/
+
+# Logs and editor settings
+*.log
+.DS_Store
+.vscode/
+.idea/
